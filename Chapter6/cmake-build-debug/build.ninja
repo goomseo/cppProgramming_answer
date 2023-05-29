@@ -254,6 +254,37 @@ build 9: CXX_EXECUTABLE_LINKER__9_Debug CMakeFiles/9.dir/9.cpp.o
   TARGET_FILE = 9
   TARGET_PDB = 9.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-1
+
+
+#############################################
+# Order-only phony target for 1-1
+
+build cmake_object_order_depends_target_1-1: phony || CMakeFiles/1-1.dir
+
+build CMakeFiles/1-1.dir/1-1.cpp.o: CXX_COMPILER__1-1_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter6/1-1.cpp || cmake_object_order_depends_target_1-1
+  DEP_FILE = CMakeFiles/1-1.dir/1-1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-1
+
+
+#############################################
+# Link the executable 1-1
+
+build 1-1: CXX_EXECUTABLE_LINKER__1-1_Debug CMakeFiles/1-1.dir/1-1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/1-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1-1
+  TARGET_PDB = 1-1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -288,7 +319,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/goomseo/Desktop/cpp_quiz/Chapter6/cmake-build-debug
 
-build all: phony 1-2 2-2 3 4 5 6 9
+build all: phony 1-2 2-2 3 4 5 6 9 1-1
 
 # =============================================================================
 # Built-in targets
