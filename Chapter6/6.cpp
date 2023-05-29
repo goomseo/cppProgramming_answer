@@ -24,12 +24,11 @@ int* ArrayUtility2::remove(int s1[], int s2[], int size, int& newSize) {
 
     bool onlyInS1 = true;
     for (int i = 0; i < size / 2; ++i) {
-        for (int j = 0; j < size / 2; ++j) {
+        for (int j = 0; j < size / 2; ++j)
             if (s2[j] == s1[i]) {
                 onlyInS1 = false;
                 break;
             }
-        }
 
         if (onlyInS1) {
             *(arr) = s1[i];
@@ -43,7 +42,7 @@ int* ArrayUtility2::remove(int s1[], int s2[], int size, int& newSize) {
     if (newSize == 0)
         return nullptr;
 
-    return arr;
+    return arr - newSize;
 }
 
 int main() {
