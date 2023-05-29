@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 int big(int a, int b, int max = 100) {
