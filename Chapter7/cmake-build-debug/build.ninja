@@ -38,66 +38,97 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/goomseo/Desktop/cpp_quiz/Chapter7/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 2
+# Object build statements for EXECUTABLE target 1-1
 
 
 #############################################
-# Order-only phony target for 2
+# Order-only phony target for 1-1
 
-build cmake_object_order_depends_target_2: phony || CMakeFiles/2.dir
+build cmake_object_order_depends_target_1-1: phony || CMakeFiles/1-1.dir
 
-build CMakeFiles/2.dir/2.cpp.o: CXX_COMPILER__2_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter7/2.cpp || cmake_object_order_depends_target_2
-  DEP_FILE = CMakeFiles/2.dir/2.cpp.o.d
+build CMakeFiles/1-1.dir/1-1.cpp.o: CXX_COMPILER__1-1_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter7/1-1.cpp || cmake_object_order_depends_target_1-1
+  DEP_FILE = CMakeFiles/1-1.dir/1-1.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
-  OBJECT_DIR = CMakeFiles/2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2.dir
+  OBJECT_DIR = CMakeFiles/1-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 2
+# Link build statements for EXECUTABLE target 1-1
 
 
 #############################################
-# Link the executable 2
+# Link the executable 1-1
 
-build 2: CXX_EXECUTABLE_LINKER__2_Debug CMakeFiles/2.dir/2.cpp.o
+build 1-1: CXX_EXECUTABLE_LINKER__1-1_Debug CMakeFiles/1-1.dir/1-1.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
-  OBJECT_DIR = CMakeFiles/2.dir
+  OBJECT_DIR = CMakeFiles/1-1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 2
-  TARGET_PDB = 2.dbg
+  TARGET_FILE = 1-1
+  TARGET_PDB = 1-1.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 1
+# Object build statements for EXECUTABLE target 1-2
 
 
 #############################################
-# Order-only phony target for 1
+# Order-only phony target for 1-2
 
-build cmake_object_order_depends_target_1: phony || CMakeFiles/1.dir
+build cmake_object_order_depends_target_1-2: phony || CMakeFiles/1-2.dir
 
-build CMakeFiles/1.dir/1.cpp.o: CXX_COMPILER__1_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter7/1.cpp || cmake_object_order_depends_target_1
-  DEP_FILE = CMakeFiles/1.dir/1.cpp.o.d
+build CMakeFiles/1-2.dir/1-2.cpp.o: CXX_COMPILER__1-2_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter7/1-2.cpp || cmake_object_order_depends_target_1-2
+  DEP_FILE = CMakeFiles/1-2.dir/1-2.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
-  OBJECT_DIR = CMakeFiles/1.dir
-  OBJECT_FILE_DIR = CMakeFiles/1.dir
+  OBJECT_DIR = CMakeFiles/1-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 1
+# Link build statements for EXECUTABLE target 1-2
 
 
 #############################################
-# Link the executable 1
+# Link the executable 1-2
 
-build 1: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/1.cpp.o
+build 1-2: CXX_EXECUTABLE_LINKER__1-2_Debug CMakeFiles/1-2.dir/1-2.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
-  OBJECT_DIR = CMakeFiles/1.dir
+  OBJECT_DIR = CMakeFiles/1-2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 1
-  TARGET_PDB = 1.dbg
+  TARGET_FILE = 1-2
+  TARGET_PDB = 1-2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-1
+
+
+#############################################
+# Order-only phony target for 2-1
+
+build cmake_object_order_depends_target_2-1: phony || CMakeFiles/2-1.dir
+
+build CMakeFiles/2-1.dir/2-1.cpp.o: CXX_COMPILER__2-1_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter7/2-1.cpp || cmake_object_order_depends_target_2-1
+  DEP_FILE = CMakeFiles/2-1.dir/2-1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/2-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-1
+
+
+#############################################
+# Link the executable 2-1
+
+build 2-1: CXX_EXECUTABLE_LINKER__2-1_Debug CMakeFiles/2-1.dir/2-1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/2-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-1
+  TARGET_PDB = 2-1.dbg
 
 
 #############################################
@@ -133,7 +164,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/goomseo/Desktop/cpp_quiz/Chapter7/cmake-build-debug
 
-build all: phony 2 1
+build all: phony 1-1 1-2 2-1
 
 # =============================================================================
 # Built-in targets
