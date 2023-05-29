@@ -11,8 +11,7 @@ public:
     void show() {cout << title << ' ' << price << "원 " << pages << " 페이지" << endl;}
     string getTitle() {return title;}
 
-    Book &operator +=(int num);
-    Book &operator -=(int num);
+    bool operator !();
 };
 
 Book::Book(string title, int price, int pages) {
@@ -21,23 +20,15 @@ Book::Book(string title, int price, int pages) {
     this -> pages = pages;
 }
 
-Book &Book::operator +=(int num) {
-    price += num;
+bool Book::operator !() {
+    if (price == 0)
+        return true;
 
-    return *this;
-}
-
-Book &Book::operator -=(int num) {
-    price -= num;
-
-    return *this;
+    return false;
 }
 
 int main() {
-    Book a("청춘", 2000, 300), b("미래", 30000, 500);
-    a += 500;
-    b -= 500;
-
-    a.show();
-    b.show();
+    Book book("벼룩시장", 0, 50);
+    if (!book)
+        cout << "공짜다" << endl;
 }
