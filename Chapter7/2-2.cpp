@@ -10,9 +10,9 @@ public:
     void show() {cout << title << ' ' << price << "원 " << pages << " 페이지" << endl;}
     string getTitle() {return title;}
 
-    bool operator ==(int price2);
-    bool operator ==(string title2);
-    bool operator ==(Book book2);
+    friend bool operator ==(Book op1, int op2);
+    friend bool operator ==(Book op1, string op2);
+    friend bool operator ==(Book op1, Book op2);
 };
 
 Book::Book(string title, int price, int pages) {
@@ -21,22 +21,22 @@ Book::Book(string title, int price, int pages) {
     this -> pages = pages;
 }
 
-bool Book::operator ==(int price2) {
-    if (price == price2)
+bool operator ==(Book op1, int op2) {
+    if (op1.price == op2)
         return true;
 
     return false;
 }
 
-bool Book::operator ==(string title2) {
-    if (title == title2)
+bool operator ==(Book op1, string op2) {
+    if (op1.title == op2)
         return true;
 
     return false;
 }
 
-bool Book::operator ==(Book book2) {
-    if (price == book2.price and title == book2.title)
+bool operator ==(Book op1, Book op2) {
+    if (op1.price == op2.price and op1.title == op2.title)
         return true;
 
     return false;
