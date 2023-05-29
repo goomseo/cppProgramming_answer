@@ -20,19 +20,16 @@ Book::Book(string title, int price, int pages) {
     this -> pages = pages;
 }
 
-Book &Book::operator+=(int num) {
+Book &Book::operator +=(int num) {
     price += num;
-    pages += num;
 
     return *this;
 }
 
-Book &Book::operator-=(int num) {
+Book &Book::operator -=(int num) {
     price -= num;
-    pages -= num;
 
     return *this;
-
 }
 
 int main() {

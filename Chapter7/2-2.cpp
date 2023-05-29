@@ -35,7 +35,7 @@ bool Book::operator ==(string title2) {
     return false;
 }
 
-bool Book::operator==(Book book2) {
+bool Book::operator ==(Book book2) {
     if (price == book2.price and title == book2.title)
         return true;
 
