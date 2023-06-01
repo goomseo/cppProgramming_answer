@@ -24,7 +24,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -48,7 +50,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					]
 				}
 			],
@@ -122,6 +126,20 @@
 					"id" : "6-2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-6-2-Debug-583e0027a51238cb494d.json",
 					"name" : "6-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7-1-Debug-45710b6b274dc33bb759.json",
+					"name" : "7-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7-2-Debug-fb59bcad64407fd97496.json",
+					"name" : "7-2",
 					"projectIndex" : 0
 				}
 			]

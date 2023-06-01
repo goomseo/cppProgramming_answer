@@ -6,8 +6,7 @@ class Matrix {
 private:
     int arr[4];
 public:
-    Matrix();
-    Matrix(int a, int b, int c, int d);
+    Matrix(int a = 0, int b = 0, int c = 0, int d = 0);
 
     Matrix operator+(Matrix op2);
     Matrix &operator+=(Matrix op2);
@@ -15,13 +14,6 @@ public:
 
     void show();
 };
-
-Matrix::Matrix() {
-    arr[0] = 0;
-    arr[1] = 0;
-    arr[2] = 0;
-    arr[3] = 0;
-}
 
 Matrix::Matrix(int a, int b, int c, int d) {
     arr[0] = a;
