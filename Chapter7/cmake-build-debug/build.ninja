@@ -285,6 +285,68 @@ build 5-2: CXX_EXECUTABLE_LINKER__5-2_Debug CMakeFiles/5-2.dir/5-2.cpp.o
   TARGET_FILE = 5-2
   TARGET_PDB = 5-2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 6-1
+
+
+#############################################
+# Order-only phony target for 6-1
+
+build cmake_object_order_depends_target_6-1: phony || CMakeFiles/6-1.dir
+
+build CMakeFiles/6-1.dir/6-1.cpp.o: CXX_COMPILER__6-1_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter7/6-1.cpp || cmake_object_order_depends_target_6-1
+  DEP_FILE = CMakeFiles/6-1.dir/6-1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/6-1.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6-1
+
+
+#############################################
+# Link the executable 6-1
+
+build 6-1: CXX_EXECUTABLE_LINKER__6-1_Debug CMakeFiles/6-1.dir/6-1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/6-1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6-1
+  TARGET_PDB = 6-1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 6-2
+
+
+#############################################
+# Order-only phony target for 6-2
+
+build cmake_object_order_depends_target_6-2: phony || CMakeFiles/6-2.dir
+
+build CMakeFiles/6-2.dir/6-2.cpp.o: CXX_COMPILER__6-2_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter7/6-2.cpp || cmake_object_order_depends_target_6-2
+  DEP_FILE = CMakeFiles/6-2.dir/6-2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/6-2.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6-2
+
+
+#############################################
+# Link the executable 6-2
+
+build 6-2: CXX_EXECUTABLE_LINKER__6-2_Debug CMakeFiles/6-2.dir/6-2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/6-2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6-2
+  TARGET_PDB = 6-2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -319,7 +381,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/goomseo/Desktop/cpp_quiz/Chapter7/cmake-build-debug
 
-build all: phony 1-1 1-2 2-1 2-2 3 4 5-1 5-2
+build all: phony 1-1 1-2 2-1 2-2 3 4 5-1 5-2 6-1 6-2
 
 # =============================================================================
 # Built-in targets
