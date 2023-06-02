@@ -173,4 +173,7 @@ int main() {
         if (respond == 'n')
             break;
     }
+
+    delete inkP;
+    delete laserP;
 }
