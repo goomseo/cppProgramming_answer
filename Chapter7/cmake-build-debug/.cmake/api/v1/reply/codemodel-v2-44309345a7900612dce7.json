@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Chapter7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-1-Debug-4b7cc75484229726558c.json",
+					"name" : "01-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-2-Debug-5b414940f8cc8fbe8d58.json",
+					"name" : "01-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-1-Debug-a2057d5e44200d42bdbb.json",
+					"name" : "02-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-2-Debug-481cda8cc56984fa8f5b.json",
+					"name" : "02-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-Debug-8f9d1721084d66016dd1.json",
+					"name" : "03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-Debug-c4b1c63f9ca0421757ce.json",
+					"name" : "04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05-1-Debug-95ca8a377de04c90f0fa.json",
+					"name" : "05-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05-2-Debug-b5ef1c8a5c4431394118.json",
+					"name" : "05-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-1-Debug-579536dbee80bee1104a.json",
+					"name" : "06-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-2-Debug-888ed70954853f12cdb2.json",
+					"name" : "06-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07-1-Debug-c9c99dccde0208197e92.json",
+					"name" : "07-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07-2-Debug-25baa3035087a4b55de8.json",
+					"name" : "07-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08-Debug-e94334e0d25f1d12fb1a.json",
+					"name" : "08",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "09::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-09-Debug-10cc98cc581b6e9d2570.json",
+					"name" : "09",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-Debug-af6440e8bde06df90c23.json",
+					"name" : "10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11-Debug-9724e7baffa01d9390ea.json",
+					"name" : "11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12-Debug-cb1b6c6e59192aa4afac.json",
+					"name" : "12",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/goomseo/Desktop/cpp_quiz/Chapter7/cmake-build-debug",
+		"source" : "/Users/goomseo/Desktop/cpp_quiz/Chapter7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
