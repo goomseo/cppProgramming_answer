@@ -254,6 +254,68 @@ build 07: CXX_EXECUTABLE_LINKER__07_Debug CMakeFiles/07.dir/07.cpp.o
   TARGET_FILE = 07
   TARGET_PDB = 07.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 08
+
+
+#############################################
+# Order-only phony target for 08
+
+build cmake_object_order_depends_target_08: phony || CMakeFiles/08.dir
+
+build CMakeFiles/08.dir/08.cpp.o: CXX_COMPILER__08_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter8/08.cpp || cmake_object_order_depends_target_08
+  DEP_FILE = CMakeFiles/08.dir/08.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/08.dir
+  OBJECT_FILE_DIR = CMakeFiles/08.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08
+
+
+#############################################
+# Link the executable 08
+
+build 08: CXX_EXECUTABLE_LINKER__08_Debug CMakeFiles/08.dir/08.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/08.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 08
+  TARGET_PDB = 08.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 09
+
+
+#############################################
+# Order-only phony target for 09
+
+build cmake_object_order_depends_target_09: phony || CMakeFiles/09.dir
+
+build CMakeFiles/09.dir/09.cpp.o: CXX_COMPILER__09_Debug /Users/goomseo/Desktop/cpp_quiz/Chapter8/09.cpp || cmake_object_order_depends_target_09
+  DEP_FILE = CMakeFiles/09.dir/09.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/09.dir
+  OBJECT_FILE_DIR = CMakeFiles/09.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09
+
+
+#############################################
+# Link the executable 09
+
+build 09: CXX_EXECUTABLE_LINKER__09_Debug CMakeFiles/09.dir/09.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/09.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 09
+  TARGET_PDB = 09.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -288,7 +350,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug
 
-build all: phony 01 02 03 04 05 06 07
+build all: phony 01 02 03 04 05 06 07 08 09
 
 # =============================================================================
 # Built-in targets

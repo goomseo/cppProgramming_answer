@@ -5,5 +5,7 @@
 /Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug/CMakeFiles/05.dir
 /Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug/CMakeFiles/06.dir
 /Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug/CMakeFiles/07.dir
+/Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug/CMakeFiles/08.dir
+/Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug/CMakeFiles/09.dir
 /Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/goomseo/Desktop/cpp_quiz/Chapter8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
