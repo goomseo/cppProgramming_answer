@@ -1,0 +1,3 @@
+/Users/goomseo/Desktop/cpp_quiz/Chapter10/cmake-build-debug/CMakeFiles/1.dir
+/Users/goomseo/Desktop/cpp_quiz/Chapter10/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/goomseo/Desktop/cpp_quiz/Chapter10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
