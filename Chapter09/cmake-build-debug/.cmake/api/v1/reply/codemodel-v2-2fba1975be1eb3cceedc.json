@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/goomseo/Desktop/cpp_quiz/Chapter9/cmake-build-debug",
-		"source" : "/Users/goomseo/Desktop/cpp_quiz/Chapter9"
+		"build" : "/Users/goomseo/Desktop/cpp_quiz/Chapter09/cmake-build-debug",
+		"source" : "/Users/goomseo/Desktop/cpp_quiz/Chapter09"
 	},
 	"version" : 
 	{
